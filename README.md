@@ -3,12 +3,16 @@
 ## Main Window
 -Program has the main window with a menu bar for navigation. <br /><br />
 
+![alt text](https://github.com/cZomb/groceryPOS/blob/main/screenshots/mainwindow.png)
+
 ## New Sale Window
 
 -NewSale window is used to pull items from the SQL database to fill the table, adding a new empty line below <br />
 -ItemNo and Quantity are the only editable fields on this table as the other cells autofill based on database values<br />
 -Total price values are then adjusted based on unit price and quantity, then sales tax is applied and totalled <br /> <br />
 -Once invoices are posted, they are saved in a local file <br /> <br />
+
+![alt text](https://github.com/cZomb/groceryPOS/blob/main/screenshots/newsale.png)
 
 ## Sale History Window
 
@@ -21,11 +25,15 @@
 -Sort combobox is used to sort results based on category, posting date, invoice number, alphabetically based in itemno, quantity, or total dollar amount<br /> 
 -If right-clicking on an entry, the option to delete the entry will appear on the mouse cursor, starting with the cancel option to avoid accidentally deleting entries<br /> <br />
 
+![alt text](https://github.com/cZomb/groceryPOS/blob/main/screenshots/salehistory.png)
+
 ## Item List Window
 
 -ItemList window is used to search the database for all available items <br /> <br />
 -The text field is used to search the ItemNo and Description fields <br />
 -the Sort and Cat comboboxes function the same as the SaleHistory window comboboxes
+
+![alt text](https://github.com/cZomb/groceryPOS/blob/main/screenshots/itemlist.png)
 
 ## Item Settings Window
 
@@ -34,6 +42,8 @@
 -Adding an item checks to see if the item exists. If not, it will add the item to the database with ItemNo being used as the primary key <br />
 -If the itemNo does exist, the Desc, Cat and Price values are adjusted and modified in the database <br />
 -If the Delete radiobutton is selected, all fields other than the ItemNo textfield become non-editable and the item is removed from the database<br />
+
+![alt text](https://github.com/cZomb/groceryPOS/blob/main/screenshots/additem.png)
 
 ## Design info
 
